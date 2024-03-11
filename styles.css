@@ -39,6 +39,7 @@ input[type="text"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: none;
 }
 
 #clear-button:hover {
@@ -94,5 +95,5 @@ li {
 .completed {
     text-decoration: line-through;
     opacity: 0.6;
-    background-color: rgb(0, 255, 0);
+    background-color: #00ff00;
 }
