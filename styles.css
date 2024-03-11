@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px #fbdf1f;
+}
+
+header h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+button {
+    font-weight: bold;
+    padding: 10px 20px; 
+    background-color: #fbdf1f;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fbdf1f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 16px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-left: 5px solid #fbdf1f;
+}
+
+.remove-btn {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.complete-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    background-color: rgb(0, 255, 0);
+}
